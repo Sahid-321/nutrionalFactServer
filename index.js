@@ -49,7 +49,7 @@ app.post('/post', async (req, res) => {
    
 })
 
-const PORT = Number(process.env.PORT) || 8000
+const PORT = Number(process.env.PORT) || 3000
 
 
 const server = app.listen(PORT, async () => {
